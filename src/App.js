@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
+import Nav from './components/Nav';
 import About from './components/About';
 
 function App() {
   return (
     <div>
-      <header>
-      Drew Schmidtke
-      </header>
-      Hello!
-      <About></About>
+      <Nav></Nav>
+      <main>
+        
+        <About></About>
+      </main>
+      <footer>
+      </footer>
     </div>
   );
 }
