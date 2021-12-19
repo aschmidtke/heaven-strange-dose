@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary: #F7EDE2;
+  --secondary: #84A59D;
+  --tertiary: #F28482;
+}
+
+body {
+  color: var(--primary)
+}
+
+header {
+  color: var(--secondary)
+}

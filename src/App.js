@@ -5,6 +5,9 @@ import About from './components/About';
 function App() {
   return (
     <div>
+      <header>
+      Drew Schmidtke
+      </header>
       Hello!
       <About></About>
     </div>
