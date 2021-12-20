@@ -2,7 +2,9 @@ import React from "react";
 
 function Resume() {
     return(
-        <div></div>
+        <div className="text-center">
+            I am the resume!
+        </div>
     );
 }
 
