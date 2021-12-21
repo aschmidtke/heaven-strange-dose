@@ -1,30 +1,14 @@
 import React from 'react';
+import Project from '../Project'
+
 
 function Portfolio() {
     return (
-        <div className=''>
-            <ul className="row text-center">
-                <li className="col-md-4">
-                    Test Project
-                </li>
-                <li className="col-md-4">
-                    Test Project
-                </li>
-                <li className="col-md-4">
-                    Test Project
-                </li>
-                <li className="col-md-4">
-                    Test Project
-                </li>
-                <li className="col-md-4">
-                    Test Project
-                </li>
-                <li className="col-md-4">
-                    Test Project
-                </li>
-            </ul>
-        </div>
-    );
+            <div>
+                <Project/>
+            </div>
+      
+    )
 }
 
 export default Portfolio;
