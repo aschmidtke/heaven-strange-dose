@@ -45,7 +45,7 @@ header {
   background: var(--secondary)
 }
 
-h2 {
+h5 {
   color: var(--dark); /* needs to be adjusted */
 }
 
@@ -72,6 +72,11 @@ a {
 .mx-2 {
   margin-right: var(--spacing-two); /* not currently using*/
   margin-left: var(--spacing-two);
+}
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
 }
 
 .px-2 {
