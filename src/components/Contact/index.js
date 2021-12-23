@@ -3,9 +3,9 @@ import React from "react";
 function Contact() {
     return (
         <section className="text-center">
-            <div className="container">
-                <h2>Contact Me</h2>
-                <form>
+            <div className="container containerColor">
+                <h3>Contact Me</h3>
+                <form className="pageContent">
                     <div className="form-group">
                         <label>Name</label>
                         <input type="email" className="form-control" id="contactName" placeholder="Name"/>

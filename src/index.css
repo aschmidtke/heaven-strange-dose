@@ -1,15 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 main {
@@ -19,10 +11,11 @@ main {
 }
 
 :root {
-  --primary: #F7EDE2;
+  --primary: #EFEFEF;
   --secondary: #3D5A80;
   --tertiary: #F28482;
   --dark: #293241;
+  --light: #FDFDFD;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -35,6 +28,7 @@ main {
 html,  /* need this? */
 body {
   min-height: 100%;
+  background: url(assets/funky-lines.jpg)
 }
 
 body {
@@ -42,7 +36,12 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom right, var(--dark), var(--secondary));
+  background-color: var(--primary);
+  opacity: 0.90;
+}
+
+h2, h3, h4 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;              
 }
 
 h5 {
@@ -51,11 +50,10 @@ h5 {
 
 li {
   list-style: none;
-
 }
 
 a {
-  color: var(--primary);
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -68,6 +66,24 @@ footer {
   text-align: center;
 }
 
+.containerColor {
+  background: linear-gradient(var(--primary), var(--light));
+  padding: 10% 15%;
+}
+
+.containerProject {
+  background: linear-gradient(var(--primary), #FDFDFD);
+}
+
+.containerItem { /* not currently necessary */
+  opacity: 1;
+}
+
+.headerIcon {
+  color: var(--tertiary);
+  opacity: .6;
+}
+
 .mx-2 {
   margin-right: var(--spacing-two); /* not currently using*/
   margin-left: var(--spacing-two);
@@ -76,6 +92,10 @@ footer {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+}
+
+.pageContent {
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
 .projectImg {
@@ -90,9 +110,4 @@ footer {
 .py-2 {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two)
-}
-
-.title {
-  color: var(--primary);
-  text-decoration: none; /* not working with bootstrap */
 }
