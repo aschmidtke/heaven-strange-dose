@@ -6,19 +6,19 @@ function Contact() {
             <div className="container">
                 <h2>Contact Me</h2>
                 <form>
-                    <div>
-                        <label>Name:</label>
-                        <input type="text" />
+                    <div className="form-group">
+                        <label>Name</label>
+                        <input type="email" className="form-control" id="contactName" placeholder="Name"/>
                     </div>
-                    <div>
-                        <label>Email:</label>
-                        <input type="email" />
+                    <div className="form-group">
+                        <label>Email</label>
+                        <input type="email" className="form-control" id="contactEmail" placeholder="Email"/>
                     </div>
-                    <div>
-                        <label>Message:</label>
-                        <textarea rows="5" />
+                    <div className="form-group">
+                        <label>Message</label>
+                        <textarea className="form-control" rows="3" /> 
                     </div>
-                    <button type="submit">Send!</button>
+                    <button type="submit" class="btn btn-default">Submit</button>
                 </form>
             </div>
         </section>

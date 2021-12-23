@@ -14,7 +14,7 @@ function Project() {
                 <h3>This Week's Distractions</h3>
                 <p>One-stop event planner using Materialize and Ticketmaster, OpenWeather and Google APIs</p>
                 <a href="https://tcyang1006.github.io/Project-1/" target="_blank">
-                    <img src={photo0} className="img-thumbnail" alt="This Week's Distractions homepage" />
+                    <img src={photo0} className="img-thumbnail projectImg" alt="This Week's Distractions homepage" />
                 </a>
                 <a href="https://github.com/TCYang1006/Project-1" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>
@@ -24,7 +24,7 @@ function Project() {
                 <h3>Receipe Rendezvous</h3>
                 <p>A blog-style recipe sharing site using Node, Express and MySQL, styled using Tailwind CSS</p>
                 <a href="https://sleepy-beach-41817.herokuapp.com/" target="_blank">
-                    <img src={photo1} className="img-thumbnail" alt="Recipe Rendezvous homepage" />
+                    <img src={photo1} className="img-thumbnail projectImg" alt="Recipe Rendezvous homepage" />
                 </a>
                 <a href="https://github.com/aschmidtke/butler-project-two.git" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>
@@ -35,7 +35,7 @@ function Project() {
                 <p>A blog-style site using Node, Express, and MySQL</p>
                 <br></br>
                 <a href="https://mighty-garden-56683.herokuapp.com/" target="_blank">
-                    <img src={photo2} className="img-thumbnail" alt="Fresh Tech Blog homepage" />
+                    <img src={photo2} className="img-thumbnail projectImg" alt="Fresh Tech Blog homepage" />
                 </a>
                 <a href="https://github.com/aschmidtke/chicken-jewel-invisible.git" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>
@@ -46,7 +46,7 @@ function Project() {
                 <p>A back-end social network API setup using MongoDB</p>
                 <br></br>
                 <a href="https://drive.google.com/file/d/1IMSeb_t7-jEKNf9o1KyHqr0pLWGt9Q5n/view" target="_blank">
-                    <img src={photo3} className="img-thumbnail" alt="Social Network API" />
+                    <img src={photo3} className="img-thumbnail projectImg" alt="Social Network API" />
                 </a>
                 <a href="https://github.com/aschmidtke/hestitate-multiply-pin" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>
@@ -57,7 +57,7 @@ function Project() {
                 <p>An Express-based note app deployed using Heroku</p>
                 <br></br>
                 <a href="https://desolate-brook-52812.herokuapp.com" target="_blank">
-                    <img src={photo4} className="img-thumbnail" alt="Note Taker homepage" />
+                    <img src={photo4} className="img-thumbnail projectImg" alt="Note Taker homepage" />
                 </a>
                 <a href="https://github.com/aschmidtke/express-note-taker" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>
@@ -67,7 +67,7 @@ function Project() {
                 <h3>Work Day Scheduler</h3>
                 <p>A simple calendar application using Moment.js and jQuery</p>
                 <a href="https://aschmidtke.github.io/workday-challenge-five/" target="_blank">
-                    <img src={photo5} className="img-thumbnail" alt="Work Day Scheduler homepage" />
+                    <img src={photo5} className="img-thumbnail projectImg" alt="Work Day Scheduler homepage" />
                 </a>
                 <a href="https://github.com/aschmidtke/workday-challenge-five.git" target="_blank">
                     <h5>GitHub <i class="bi bi-github"></i></h5>

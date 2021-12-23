@@ -42,7 +42,7 @@ body {
 }
 
 header {
-  background: var(--secondary)
+  background: linear-gradient(to bottom right, var(--dark), var(--secondary));
 }
 
 h5 {
@@ -51,6 +51,7 @@ h5 {
 
 li {
   list-style: none;
+
 }
 
 a {
@@ -58,11 +59,9 @@ a {
   text-decoration: none;
 }
 
-/* img {
-  max-width: 25%;
-  border: 1px solid var(--secondary);
-  border-radius: 8px;
-} */
+footer {
+  background: var(--secondary); /* not currently in use */
+}
 
 .aboutText {
   color: var(--dark);
@@ -77,6 +76,10 @@ a {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+}
+
+.projectImg {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .px-2 {
