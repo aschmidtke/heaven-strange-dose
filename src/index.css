@@ -12,9 +12,7 @@ main {
 
 :root {
   --primary: #EFEFEF;
-  --secondary: #3D5A80;
-  --tertiary: #F28482;
-  --dark: #293241;
+  --blue: #101D3E;
   --light: #FDFDFD;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -28,7 +26,7 @@ main {
 html,  /* need this? */
 body {
   min-height: 100%;
-  background: url(assets/funky-lines.jpg)
+  background: url(assets/background3.jpg)
 }
 
 body {
@@ -37,32 +35,32 @@ body {
 
 header {
   background-color: var(--primary);
-  opacity: 0.90;
 }
 
-h2, h3, h4 {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;              
-}
-
-h5 {
-  color: var(--dark); /* needs to be adjusted */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  color: var(--blue);              
 }
 
 li {
   list-style: none;
 }
 
-a {
-  color: var(--dark);
+a, a:hover {
+  color: var(--blue);
   text-decoration: none;
 }
 
+p {
+  color: var(--blue);
+}
+
 footer {
-  background: var(--secondary); /* not currently in use */
+  background: var(--primary);
 }
 
 .aboutText {
-  color: var(--dark);
+  color: var(--blue);
   text-align: center;
 }
 
@@ -75,12 +73,9 @@ footer {
   background: linear-gradient(var(--primary), #FDFDFD);
 }
 
-.containerItem { /* not currently necessary */
-  opacity: 1;
-}
 
 .headerIcon {
-  color: var(--tertiary);
+  color: var(--blue);
   opacity: .6;
 }
 
