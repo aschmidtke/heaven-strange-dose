@@ -4,7 +4,7 @@ import resume from "../../assets/resume.jpg"
 function Resume() {
     return(
         <div className="text-center containerColor">
-            <img src={resume} alt="resume photo" />
+            <img src={resume} alt="resume" />
             <br></br>
             <a className="headerIcon" href={resume} download>
                 <i class="bi bi-download" />
