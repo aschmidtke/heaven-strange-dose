@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/heaven-strange-dose/static/css/main.0fb45f25.css",
+    "main.js": "/heaven-strange-dose/static/js/main.071b1409.js",
+    "static/js/787.7e36629e.chunk.js": "/heaven-strange-dose/static/js/787.7e36629e.chunk.js",
+    "static/media/1.jpg": "/heaven-strange-dose/static/media/1.dadc77993c5085ec3276.jpg",
+    "static/media/resume.jpg": "/heaven-strange-dose/static/media/resume.e73cda727d236e9349cb.jpg",
+    "static/media/0.jpg": "/heaven-strange-dose/static/media/0.ab1adb7be11adea542f2.jpg",
+    "static/media/bootstrap-icons.woff?": "/heaven-strange-dose/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/2.jpg": "/heaven-strange-dose/static/media/2.ab439144fa57e4e2852d.jpg",
+    "static/media/5.jpg": "/heaven-strange-dose/static/media/5.f59c6bc4c043dc66fb82.jpg",
+    "static/media/bootstrap-icons.woff2?": "/heaven-strange-dose/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "static/media/3.jpg": "/heaven-strange-dose/static/media/3.018c0a2095b0bc8ed66b.jpg",
+    "static/media/headshot.jpg": "/heaven-strange-dose/static/media/headshot.f7b68d088754c9c4cd01.jpg",
+    "static/media/4.jpg": "/heaven-strange-dose/static/media/4.7dc0787471bf7c6cfc15.jpg",
+    "static/media/background3.jpg": "/heaven-strange-dose/static/media/background3.c70df16f949c803a0a06.jpg",
+    "index.html": "/heaven-strange-dose/index.html",
+    "main.0fb45f25.css.map": "/heaven-strange-dose/static/css/main.0fb45f25.css.map",
+    "main.071b1409.js.map": "/heaven-strange-dose/static/js/main.071b1409.js.map",
+    "787.7e36629e.chunk.js.map": "/heaven-strange-dose/static/js/787.7e36629e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb45f25.css",
+    "static/js/main.071b1409.js"
+  ]
+}
