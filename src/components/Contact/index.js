@@ -12,12 +12,12 @@ function Contact() {
                         </a>
                     </span>
                     <span className="contactIcon" >
-                        <a href="https://www.linkedin.com/in/drew-schmidtke/">
+                        <a href="https://www.linkedin.com/in/drew-schmidtke/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin" role="img" aria-label="LinkedIn"></i>
                         </a>
                     </span>
                     <span className="contactIcon">
-                        <a href="https://github.com/aschmidtke">
+                        <a href="https://github.com/aschmidtke" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-github" role="img" aria-label="GitHub"></i>
                         </a>
                     </span>
