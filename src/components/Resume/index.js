@@ -2,9 +2,9 @@ import React from "react";
 import resume from "../../assets/resume.jpg"
 
 function Resume() {
-    return(
+    return (
         <div className="text-center containerColor">
-            <img src={resume} alt="resume" />
+            <img src={resume} alt="resume" className="resumeImage"/>
             <br></br>
             <a className="headerIcon" href={resume} download>
                 <i class="bi bi-download" />
