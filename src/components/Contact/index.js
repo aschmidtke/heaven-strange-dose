@@ -1,5 +1,7 @@
 import React from "react";
 
+// old contact form
+
 function Contact() {
     return (
         <section className="text-center">
