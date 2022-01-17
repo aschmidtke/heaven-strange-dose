@@ -15,8 +15,8 @@ This is a simple web development portfolio created using React.
 ### Technologies
 React, Javascript, HTML, CSS, Bootstrap
 
-* Background image "Dark Paths" sourced on Toptal and created by Jimesh Bathija
 
 Repository Link: https://github.com/aschmidtke/heaven-strange-dose.git
+
 Site Link: https://aschmidtke.github.io/heaven-strange-dose/
 

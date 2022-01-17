@@ -7,7 +7,7 @@ function Resume() {
             <img src={resume} alt="resume" className="resumeImage"/>
             <br></br>
             <a className="headerIcon" href={resume} download>
-                <i class="bi bi-download" />
+                <i className="bi bi-download" />
             </a>
         </div>
     );

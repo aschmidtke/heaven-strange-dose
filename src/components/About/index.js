@@ -1,10 +1,12 @@
 import React from 'react';
-import headShot from '../../assets/headshot.jpg';
+import headShot from '../../assets/headshot2.png';
 
 function About() {
     return (
         <section className='row containerColor'>
-            <img src={headShot} className="col-md-4" alt="headshot" />
+            <div className="col-md-4">
+                <img src={headShot} className="img-fluid" alt="headshot" />
+            </div>
             <div className="aboutText px-2 col-md-8 pageContent">
                 <p className="fw-bold fs-1 float-left">
                     Hi,
