@@ -11,7 +11,7 @@ const Nav = props => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
             <h2>
-                <a className="navbar-item px-2" href="/">
+                <a className="navbar-item px-2" href="/heaven-strange-dose">
                     <span className="headerIcon">
                         <i className="bi bi-slash"></i>
                     </span>
