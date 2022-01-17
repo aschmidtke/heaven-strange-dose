@@ -11,23 +11,23 @@ const Nav = props => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
             <h2>
-                <a className="navbar-item" href="/">
+                <a className="navbar-item px-2" href="/">
                     <span className="headerIcon">
                         <i className="bi bi-slash"></i>
                     </span>
                     Drew Schmidtke
                 </a>
             </h2>
-            <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+            <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span>
-                    <i className="bi bi-slash headerIcon"></i>
+                    <i className="bi bi-slash headerIcon px-2"></i>
                 </span>
             </button>
 
-            <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
+            <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarCollapse">
             <ul className='navbar-nav'>
                      {tabs.map(tab => (
-                        <li className="navbar-item active" key={tab}>
+                        <li className="navbar-item active px-2" key={tab}>
                             <h4>
                                 <span className="headerIcon">
                                     <i className="bi bi-slash"></i>

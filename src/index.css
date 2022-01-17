@@ -68,6 +68,10 @@ footer {
   text-align: center;
 }
 
+.contactIcon {
+  padding: var(--spacing-two);
+}
+
 .containerColor {
   background: var(--primary);
   padding: 10% 15%;
@@ -102,6 +106,10 @@ footer {
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
+}
+
+.px-r {
+  padding-right: var(--spacing-five);
 }
 
 .py-2 {
