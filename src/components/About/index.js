@@ -3,7 +3,7 @@ import headShot from '../../assets/headshot2.png';
 
 function About() {
     return (
-        <section className='row containerColor'>
+        <section className="row containerColor">
             <div className="col-md-4">
                 <img src={headShot} className="img-fluid" alt="headshot" />
             </div>

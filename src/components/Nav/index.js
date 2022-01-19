@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const Nav = props => {
+const Nav = (props) => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
@@ -9,7 +9,8 @@ const Nav = props => {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light shading bottomBorder">
+            {/* name section */}
             <h2>
                 <a className="navbar-item px-2" href="/heaven-strange-dose">
                     <span className="headerIcon">
@@ -18,12 +19,13 @@ const Nav = props => {
                     Drew Schmidtke
                 </a>
             </h2>
+            {/* button displaying on smaller screens */}
             <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span>
                     <i className="bi bi-slash headerIcon px-2"></i>
                 </span>
             </button>
-
+            {/* nav links */}
             <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarCollapse">
             <ul className='navbar-nav'>
                      {tabs.map(tab => (
@@ -41,8 +43,6 @@ const Nav = props => {
                             </h4>
                         </li>
                     ))}
-
-
                 </ul>
             </div>
         </nav>
