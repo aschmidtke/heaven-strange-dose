@@ -105,15 +105,15 @@ function Project() {
             {/* project 6 */}
             <div className="container col-md-4 shading">
                 <div className="card py-2 my-2 projectBorder">
-                    <h3 className="card-title">Work Day Scheduler</h3>
+                    <h3 className="card-title">Vaccine Tracker</h3>
                     <div className="card-body">
-                        <p className="pageContent">A simple calendar application using JavaScript, Moment.js, jQuery, and Bootstrap styling</p>
-                        <a href="https://aschmidtke.github.io/workday-challenge-five/" target="_blank" rel="noopener noreferrer">
-                            <img src={photo5} className="img-thumbnail shading" alt="Work Day Scheduler homepage" />
+                        <p className="pageContent">A COVID-19 digital vaccine record built using the full MERN stack with the Apollo Client</p>
+                        <a href="https://cryptic-shelf-43216.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={photo5} className="img-thumbnail shading" alt="Vaccine Tracker" />
                         </a>
                     </div>
                     <div className="card-footer bg-white">
-                        <a href="https://github.com/aschmidtke/workday-challenge-five.git" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/aschmidtke/vaccine-tracker-project" target="_blank" rel="noopener noreferrer">
                             <h5 className="pageContent">GitHub <i className="bi bi-github"></i></h5>
                         </a>
                     </div>

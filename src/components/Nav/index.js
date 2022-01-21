@@ -9,7 +9,7 @@ const Nav = (props) => {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light shading bottomBorder">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light rounded shading bottomBorder">
             {/* name section */}
             <h2>
                 <a className="navbar-item px-2" href="/heaven-strange-dose">
@@ -50,3 +50,4 @@ const Nav = (props) => {
 }
 
 export default Nav;
+
