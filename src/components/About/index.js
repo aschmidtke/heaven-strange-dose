@@ -8,10 +8,13 @@ function About() {
                 <img src={headShot} className="img-fluid" alt="headshot" />
             </div>
             <div className="aboutText px-2 col-md-8 pageContent">
-                <p className="fw-bold fs-1 float-left">
-                    Hi,
-                </p>
-                I'm Drew Schmidtke, and I'm a full stack web developer. I'm finishing up my training at Butler University's Executive Education Coding Boot Camp in January 2022. Before this, I spent 18 years in the hospitality industry. I live in Indianapolis with my wife, Steph, and our cat, Pickle. In addition to coding, I am also an avid cook and musician.
+            <p>
+            Full Stack Web Developer with 10 years of hospitality management experience. Recently earned a Certificate in Full-Stack Web Development from Butler University. Creative problem solver, great team player and excellent multitasker. Avid cook and musician. Enjoys creating web applications with a user-friendly design, layout and functionality. Excited to leverage skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+            </p>
+            <br></br>
+            <p>
+            Technical Skills: HTML, CSS, Javascript, Node.js, Express, MongoDB, React.js
+            </p>
             </div>
         </section>
     );
